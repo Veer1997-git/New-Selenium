@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [caseStudies_18]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.utility.Report"/>
+  </listeners>
+  <test thread-count="5" name="CaseStudy1(failed)">
+    <parameter name="email_id" value="test@test.com"/>
+    <parameter name="firstname" value="smith"/>
+    <parameter name="password" value="mercury"/>
+    <parameter name="url" value="https://www.ebay.com/"/>
+    <parameter name="lastname" value="kim"/>
+    <classes>
+      <class name="com.qa.testscript.TC_Ebay_01">
+        <methods>
+          <include name="initilalization"/>
+          <include name="tearDown"/>
+          <include name="ebay" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_Ebay_01 -->
+    </classes>
+  </test> <!-- CaseStudy1(failed) -->
+  <test thread-count="5" name="CaseStudy3(failed)">
+    <parameter name="url" value="http://destinationqa.com/aut/RadioButtons.html/"/>
+    <classes>
+      <class name="com.qa.testscript.TC_RadioButtons">
+        <methods>
+          <include name="initilalization"/>
+          <include name="tearDown"/>
+          <include name="destinationQA" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_RadioButtons -->
+    </classes>
+  </test> <!-- CaseStudy3(failed) -->
+  <test thread-count="5" name="CaseStudy4(failed)">
+    <parameter name="url" value="https://www.rediff.com/"/>
+    <classes>
+      <class name="com.qa.testscript.TC_Rediff">
+        <methods>
+          <include name="initilalization"/>
+          <include name="tearDown"/>
+          <include name="rediff" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_Rediff -->
+    </classes>
+  </test> <!-- CaseStudy4(failed) -->
+  <test thread-count="5" name="CaseStudy5(failed)">
+    <parameter name="url" value="https://www.google.co.in/"/>
+    <classes>
+      <class name="com.qa.testscript.TC_AutoSuggestField">
+        <methods>
+          <include name="initilalization"/>
+          <include name="tearDown"/>
+          <include name="google" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_AutoSuggestField -->
+    </classes>
+  </test> <!-- CaseStudy5(failed) -->
+  <test thread-count="5" name="CaseStudy16(failed)">
+    <parameter name="url" value="file:///C:/Users/Admin/Downloads/popup2.html"/>
+    <classes>
+      <class name="com.qa.testscript.TC_Popup_02">
+        <methods>
+          <include name="initilalization"/>
+          <include name="tearDown"/>
+          <include name="pop2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_Popup_02 -->
+    </classes>
+  </test> <!-- CaseStudy16(failed) -->
+</suite> <!-- Failed suite [caseStudies_18] -->

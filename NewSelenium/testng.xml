@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="caseStudies_18">
+
+<listeners>
+        <listener class-name="com.qa.utility.Report"></listener>
+</listeners>
+
+	<test name="CaseStudy1">
+		<parameter name="url" value="https://www.ebay.com/" />
+		<parameter name="firstname" value="smith" />
+		<parameter name="lastname" value="kim" />
+		<parameter name="email_id" value="test@test.com" />
+		<parameter name="password" value="mercury" />
+		<classes>
+			<class name="com.qa.testscript.TC_Ebay_01" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy3">
+		<parameter name="url" value="http://destinationqa.com/aut/RadioButtons.html/" />
+		<classes>
+			<class name="com.qa.testscript.TC_RadioButtons" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy4">
+		<parameter name="url" value="https://www.rediff.com/" />
+		<classes>
+			<class name="com.qa.testscript.TC_Rediff" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy5">
+		<parameter name="url" value="https://www.google.co.in/" />
+		<classes>
+			<class name="com.qa.testscript.TC_AutoSuggestField" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy6">
+		<parameter name="url" value="https://www.amazon.in/" />
+		<classes>
+			<class name="com.qa.testscript.TC_Amazon" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy7">
+		<parameter name="url" value="http://demo.guru99.com/test/newtours/" />
+		<classes>
+			<class name="com.qa.testscript.TC_NewTours_01" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy8">
+		<parameter name="url" value="http://demo.guru99.com/test/newtours/" />
+		<classes>
+			<class name="com.qa.testscript.TC_NewTours_02" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy9">
+		<parameter name="url" value="http://demo.guru99.com/test/newtours/" />
+		<classes>
+			<class name="com.qa.testscript.TC_NewTours_03" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test name="CaseStudy13">
+		<parameter name="url" value="https://www.fedex.com/en-in/home.html" />
+		<classes>
+			<class name="com.qa.testscript.TC_Fedex" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy15">
+		<parameter name="url" value="file:///C:/Users/Admin/Downloads/popup1.html" />
+		<classes>
+			<class name="com.qa.testscript.TC_Popup_01" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy16">
+		<parameter name="url" value="file:///C:/Users/Admin/Downloads/popup2.html" />
+		<classes>
+			<class name="com.qa.testscript.TC_Popup_02" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy17">
+		<parameter name="url" value="file:///C:/Users/Admin/Downloads/popup3.html" />
+		<classes>
+			<class name="com.qa.testscript.TC_Popup_03" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="CaseStudy18">
+		<parameter name="url" value="http://demo.guru99.com/test/newtours/" />
+		<classes>
+			<class name="com.qa.testscript.TC_NewTours_04" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
